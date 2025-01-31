@@ -245,31 +245,44 @@
       </section>
 
       <!-- Trending Section -->
-      <section class="lg:bg-[#FFF9F4] mt-[7.875rem] mb-[8.75rem]">
+      <section class="lg:bg-[#FFF9F4] mt-7 lg:mt-[7.875rem] mb-[8.75rem]">
+        <!-- Main Div -->
         <div class="max-w-screen-xl mx-auto p-4">
           <h1
-            class="adl-font text-2xl lg:text-4xl mt-6 lg:mt-[8.75rem] mb-8 lg:mb-12"
+            class="adl-font text-2xl lg:text-4xl mt-0 lg:mt-[8.75rem] mb-8 lg:mb-12"
           >
             Trending Pet Products
           </h1>
           <!--All card div -->
-          <div>
+          <div class="lg:flex gap-6 lg:mb-[8.75rem] space-y-6 lg:space-y-0">
             <!-- Right div -->
-            <div>
-              <div>
-                <h1>T-Shirt For Dogs</h1>
-                <p>
-                  Discover a world of treats, toys, and essentials handpicked
-                  for
+            <div
+              class="lg:relative bg-[#F9DF8A] rounded-xl pt-[2.5rem] pl-8 w-full lg:w-1/3"
+            >
+              <div class="absolute">
+                <h1
+                  class="adl-font text-[1.625rem] lg:text-[2rem] mb-2 lg:mb-4"
+                >
+                  T-Shirt For Dogs
+                </h1>
+                <p class="text-gray-700 sora mb-4 lg:mb-5">
+                  Discover a world of treats, toys, and<br />essentials
+                  handpicked for
                 </p>
-                <button>Shop Now</button>
+                <button
+                  class="sora bg-white hover:bg-[#b6b6b1] rounded-lg lg:py-3 lg:px-8 py-2 px-7 text-xl"
+                >
+                  Shop Now
+                </button>
               </div>
-              <div>
+              <div class="lg:absolute top-[50px] right-0 flex justify-end">
                 <img src="assets/cute-pet-small.png" alt="" />
               </div>
             </div>
             <!-- Left div -->
-            <div class="grid grid-cols-3 gap-6">
+            <div
+              class="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 w-full lg:w-2/3"
+            >
               <!-- card -->
               <!-- 1 -->
               <div
@@ -393,7 +406,7 @@
               </div>
               <!-- 9 -->
               <div
-                class="flex items-center bg-white gap-4 border p-4 rounded-xl"
+                class="hidden lg:flex items-center bg-white gap-4 border p-4 rounded-xl"
               >
                 <div
                   class="h-[70px] w-[70px] bg-[#FFF9F4] flex items-center justify-center rounded-xl"
