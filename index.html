@@ -124,25 +124,30 @@
         <!-- Parent div -->
         <div class="relative lg:relative">
           <!-- Text Content -->
-          <div class="lg:w-2/4 lg:absolute">
+          <div class="lg:w-2/4 lg:absolute z-20">
             <h1 class="adl-font text-[1.875rem] lg:text-[3.5rem] mb-3 lg:mb-4">
-              Pamper Your Pet, Because They Deserve the Bes
+              Pamper Your Pet,<br />Because They Deserve<br />the Bes
             </h1>
             <p
-              class="sora text-gray-600 leading-[1.3] lg:leading-9 text-[1.0625rem] lg:text-xl mb-3 lg:mb-6"
+              class="sora text-gray-600 leading-[1.3] lg:leading-9 lg:text-[1.0625rem] lg:text-xl mb-8 lg:mb-6"
             >
-              Discover a world of treats, toys, and essentials handpicked for
-              your furry friends. Shop now and make tails wag with joy!
+              Discover a world of treats, toys, and<span class="md:hidden"
+                ><br /></span
+              >essentials handpicked for your furry<span class="md:hidden"
+                ><br /></span
+              >friends. Shop now and make tails wag with joy!
             </p>
             <button
-              class="accent border border-[#ffdc26] hover:bg-transparent rounded-lg text-xl py-3 px-8 sora"
+              class="accent border border-[#ffdc26] hover:bg-transparent rounded-lg text-base lg:text-xl py-2 px-7 lg:py-3 lg:px-8 sora"
             >
               Find a pet
             </button>
           </div>
 
           <!-- Image Content -->
-          <div>
+          <div
+            class="absolute -left-4 -right-4 top-[170px] -z-10 md:static md:z-auto"
+          >
             <img src="assets/cat-big.png" alt="" />
           </div>
         </div>
