@@ -56,6 +56,31 @@
       .bg-primary {
         background-color: #f9df8a;
       }
+
+      .animation {
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          background: #33cccc;
+        }
+        20% {
+          background: #33cc36;
+        }
+        40% {
+          background: #b8cc33;
+        }
+        60% {
+          background: #fcca00;
+        }
+        80% {
+          background: #33cc36;
+        }
+        100% {
+          background: #33cccc;
+        }
+      }
     </style>
   </head>
 
@@ -142,7 +167,7 @@
               >friends. Shop now and make tails wag with joy!
             </p>
             <button
-              class="skeleton accent border border-[#ffdc26] hover:bg-transparent rounded-lg text-base lg:text-xl py-2 px-7 lg:py-3 lg:px-8 sora"
+              class="animation rounded-lg text-base lg:text-xl py-2 px-7 lg:py-3 lg:px-8 sora"
             >
               Find a pet
             </button>
